@@ -18,9 +18,9 @@ def home(data):
         web.pull()
         time.sleep(5)
         #อัพเดทโค้ด hottub python
-        machine = git.cmd.Git('/home/linaro/hottub_linaro')
-        machine.pull()
-        time.sleep(10)
+        # machine = git.cmd.Git('/home/linaro/hottub_linaro')
+        # machine.pull()
+        # time.sleep(10)
         cmd = 'sudo reboot'
         os.system(cmd)
 
